@@ -1,0 +1,43 @@
+body {
+  background-color: white;
+  color: black;
+  font-family: sans-serif,Arial, Helvetica !important;
+}
+.dark{
+cursor: pointer;
+}
+.details-content{
+	line-height: inherit;
+	text-align: justify;
+}
+.user-image {
+  width: 100%;
+  border-radius: 50%;
+  -webkit-user-drag: none;
+  border: 1px solid lightgray;
+  box-shadow: 3px 3px 3px rgb(0 0 0 / 0.2);
+}
+.job-title {
+  font-weight: bold;
+}
+a{
+  text-decoration: none;
+}
+.h-100v{
+	height: 90vh;
+}
+.f-50{
+	font-size: 50px;
+}
+.fa-youtube{
+	color: red;
+}
+.fa-stack-overflow{
+	color: orange;
+}
+.fa-gitlab{
+	color: brown;
+}
+.fa-envelope{
+	color: red;
+}

@@ -1,43 +1,92 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="./style.css">
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-    <title>bardia riahi</title>
+    <title>bardia riahi's Personal Website</title>
 </head>
 
 <body>
+    <nav class="container-fluid">
+        <div class="row pt-3">
+            <div class="col-lg-3 col-12">
+                <p class="dark" onclick="darkModeBtn()" id="dark-mode">
+                <i class="fas fa-adjust"></i>
+                <span id="dark-text">Dark Theme</span>
+                </p>
+            </div>
+        </div>
+    </nav>
     <div class="container">
-        <div class="row">
-            <div class="col-12 text-center">
-                <h1>new website</h1>
-                <h3>Coming Soon</h3>
+        
+        <div class="row h-100v">
+            <div class="col-12 col-md-3 m-auto text-center">
+                <div class="row">
+                    <div class="col-12 pt-4">
+                        <img  class="user-image" src="./assets/images/bardia.png" alt="bardiariahi">
+                    </div>
+                    <div class="col-12 py-2">
+                        <h2 class="d-none">بردیا ریاحی</h2>
+                        <h1>
+                            Bardia Riahi
+                        </h1>
+                        <span class="badge bg-info text-dark p-3">
+                            Front-End Developer
+                        </span>
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <span>
+                            Tehran | Iran
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-9 m-auto p-lg-5">
+                <p class="h1 pb-4">
+                    Welcome To my personal website 
+                </p>
+                <p class="h5 details-content">
+                    I'm Bardia Riahi a Front-End Developer living and working in Tehran, Iran. This Is my space on the interwebs. my Journey started in collage and i started to learn C++ and pascal as self-study, C# in Tehran Institute of Technology and Android Pack curse with (Java) language, after a while i had wonderful exprience in Front-End (html , css3 , flex-box , sass/less , bootstrap4 , bootstrap5 , jquery , javascript , reactjs , redux , typescript (basic) , react native (basic) , php (basic) , laravel (basic) ). Developing software is something that I do every day. I love programming and develop solutions for real-world problems. Also, I love teaching and passing my knowledge to other people, so if you want to contact me, use one of these links below.
+                </p>
+                <span class="badge rounded-pill bg-dark w-100 p-4">Follow me here</span>
+                <div class="text-center f-50">
+                    <a class="btn btn-link" target="_blank" href="https://www.linkedin.com/in/bardia-riahi-9a4252153/">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a class="btn btn-link" href="mailto:bardiariahi@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a class="btn btn-link" target="_blank" href="https://github.com/bardiariahi">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a class="btn btn-link" target="_blank" href="https://gitlab.com/bardiariahi">
+                        <i class="fab fa-gitlab"></i>
+                    </a>
+                    <a class="btn btn-link" target="_blank" href="https://stackoverflow.com/users/13192014/bardia-riahi">
+                        <i class="fab fa-stack-overflow"></i>
+                    </a>
+                    <a class="btn btn-link" target="_blank" href="https://studio.youtube.com/channel/UCEsVuwKq5TWAOYPXq7Nv_Pg/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                </div>
+                
             </div>
         </div>
     </div>
+    
 
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-    <script src="./index.js"></script>
+    <script src="javascripts/bootstrap.min.js"></script>
+    <script defer src="javascripts/index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    
 </body>
 
 </html>
