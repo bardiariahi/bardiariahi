@@ -112,65 +112,8 @@ ga('send', 'pageview');
         </div>
     </div>
     
-    <div>
-        <p>test</p>
-              <form method="post" id="financial-advice-submit" class="financial-advice-submit" action="https://script.google.com/macros/s/AKfycbzQ3Sr9ncZART-U0V9phcUyqt1wPF-zcsVNXo2_CR5eKGibGhjL74sYrgfVswodDrVrkg/exec">
-<!--      <form onsubmit="handlesubmit(e)" class="financial-advice-submit" >-->
-      <div class="row p-0 m-0">
-        <div class="col-4">
-          <p class="h3 pb-5">
-            درخواست
-            مشــــاوره
-          </p>
-          <div class="pt-3">
-            <button type="submit" class="btn custom-footer-btn"> ارسال </button>
-          </div>
-        </div>
-        <div class="col-8">
-          <div class="pb-2">
-            <label class="w-100">
-              <input class="custom-footer-input" id="desktop-name" name="Name" type="text" placeholder="نام و نام‌خانوادگی">
-            </label>
-          </div>
-          <div class="pb-2">
-            <label class="w-100">
-              <input class="custom-footer-input" id="desktop-tel" required name="Tel" type="tel" placeholder="شماره تماس ">
-            </label>
-          </div>
-          <div class="pb-2">
-            <label class="w-100">
-              <input class="custom-footer-input" id="desktop-email" name="Email" type="email" placeholder="ایمیل">
-            </label>
-          </div>
-          <div class="custom-footer-input">
-            <select class="select-styles" name="Money" id="desktop-form-question">
-              <option disabled value="">سرمایه حدودی</option>
-              <option value="1">بین ۱۰ تا ۱۰۰ میلیون تومان</option>
-              <option value="2">بین ۱۰۰ میلیون تا ۱ میلیارد تومان</option>
-              <option value="3">بیشتر از ۱ میلیارد تومان</option>
-            </select>
-          </div>
-        </div>
-      </div>
-      </form>
-    </div>
-    <script>
-        window.addEventListener("load", function() {
-  const form = document.getElementById('financial-advice-submit');
-  form.addEventListener("submit", function(e) {
-    e.preventDefault();
-    const data = new FormData(form);
-    const action = e.target.action;
-    fetch(action, {
-      method: 'POST',
-      body: data,
-    })
-    .then(() => {
-      alert("Success!");
-    })
-  });
-});
-    </script>
+    
+  
     <script src="javascripts/bootstrap.min.js"></script>
     <script defer src="javascripts/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
